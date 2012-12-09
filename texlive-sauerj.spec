@@ -73,3 +73,17 @@ macros for typesetting a number as a German-language string.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 20070115-2
++ Revision: 755790
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 20070115-1
++ Revision: 719481
+- texlive-sauerj
+- texlive-sauerj
+- texlive-sauerj
+- texlive-sauerj
+
