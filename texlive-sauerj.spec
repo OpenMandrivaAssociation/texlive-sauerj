@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-sauerj
 Version:	20070115
-Release:	3
+Release:	4
 Summary:	A bundle of utilities by Jonathan Sauer
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/sauerj
