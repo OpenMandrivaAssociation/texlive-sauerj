@@ -1,9 +1,3 @@
-# revision 15878
-# category Package
-# catalog-ctan /macros/latex/contrib/sauerj
-# catalog-date 2007-01-15 20:25:47 +0100
-# catalog-license lppl
-# catalog-version undef
 Name:		texlive-sauerj
 Version:	20170414
 Release:	1
@@ -37,32 +31,10 @@ macros for typesetting a number as a German-language string.
 
 #-----------------------------------------------------------------------
 %files
-%{_texmfdistdir}/tex/latex/sauerj/collect.sty
-%{_texmfdistdir}/tex/latex/sauerj/metainfo.sty
-%{_texmfdistdir}/tex/latex/sauerj/optparams.sty
-%{_texmfdistdir}/tex/latex/sauerj/parcolumns.sty
-%{_texmfdistdir}/tex/latex/sauerj/processkv.sty
-%{_texmfdistdir}/tex/latex/sauerj/zahl2string.sty
-%doc %{_texmfdistdir}/doc/latex/sauerj/README
-%doc %{_texmfdistdir}/doc/latex/sauerj/collect.pdf
-%doc %{_texmfdistdir}/doc/latex/sauerj/metainfo.pdf
-%doc %{_texmfdistdir}/doc/latex/sauerj/optparams.pdf
-%doc %{_texmfdistdir}/doc/latex/sauerj/parcolumns.pdf
-%doc %{_texmfdistdir}/doc/latex/sauerj/processkv.pdf
-%doc %{_texmfdistdir}/doc/latex/sauerj/zahl2string.pdf
+%{_texmfdistdir}/tex/latex/sauerj
+%doc %{_texmfdistdir}/doc/latex/sauerj
 #- source
-%doc %{_texmfdistdir}/source/latex/sauerj/collect.dtx
-%doc %{_texmfdistdir}/source/latex/sauerj/collect.ins
-%doc %{_texmfdistdir}/source/latex/sauerj/metainfo.dtx
-%doc %{_texmfdistdir}/source/latex/sauerj/metainfo.ins
-%doc %{_texmfdistdir}/source/latex/sauerj/optparams.dtx
-%doc %{_texmfdistdir}/source/latex/sauerj/optparams.ins
-%doc %{_texmfdistdir}/source/latex/sauerj/parcolumns.dtx
-%doc %{_texmfdistdir}/source/latex/sauerj/parcolumns.ins
-%doc %{_texmfdistdir}/source/latex/sauerj/processkv.dtx
-%doc %{_texmfdistdir}/source/latex/sauerj/processkv.ins
-%doc %{_texmfdistdir}/source/latex/sauerj/zahl2string.dtx
-%doc %{_texmfdistdir}/source/latex/sauerj/zahl2string.ins
+%doc %{_texmfdistdir}/source/latex/sauerj
 
 #-----------------------------------------------------------------------
 %prep
@@ -73,17 +45,3 @@ macros for typesetting a number as a German-language string.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 20070115-2
-+ Revision: 755790
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 20070115-1
-+ Revision: 719481
-- texlive-sauerj
-- texlive-sauerj
-- texlive-sauerj
-- texlive-sauerj
-
