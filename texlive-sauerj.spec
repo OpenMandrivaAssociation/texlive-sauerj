@@ -1,6 +1,6 @@
 Name:		texlive-sauerj
 Version:	15878
-Release:	1
+Release:	2
 Summary:	A bundle of utilities by Jonathan Sauer
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/sauerj
