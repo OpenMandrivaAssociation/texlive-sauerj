@@ -3,7 +3,7 @@ Version:	15878
 Release:	2
 Summary:	A bundle of utilities by Jonathan Sauer
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/sauerj
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/sauerj
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/sauerj.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/sauerj.doc.r%{version}.tar.xz
